@@ -12,9 +12,9 @@ public class EmployeeApp {
     public static void main(String[] args) throws IOException {
 
         Employee employee = new Employee(
-            101,
-            "Dinesh",
-            "DevOps Engineer"
+            100,
+            "Dinesh A",
+            "AWS DevOps Engineer"
         );
 
         HttpServer server = HttpServer.create(
