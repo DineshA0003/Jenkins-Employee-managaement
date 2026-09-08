@@ -12,8 +12,8 @@ public class EmployeeAppTest {
         Employee employee =
             new Employee(101, "Dinesh", "DevOps Engineer");
 
-        assertEquals(101, employee.getId());
-        assertEquals("Dinesh", employee.getName());
+        assertEquals(100, employee.getId());
+        assertEquals("Dinesh A", employee.getName());
         assertEquals("DevOps Engineer", employee.getRole());
     }
 }
