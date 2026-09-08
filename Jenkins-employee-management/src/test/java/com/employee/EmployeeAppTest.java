@@ -10,7 +10,7 @@ public class EmployeeAppTest {
     void testEmployee() {
 
         Employee employee =
-            new Employee(100, "Dinesh", "DevOps Engineer");
+            new Employee(100, "Dinesh A", "DevOps Engineer");
 
         assertEquals(100, employee.getId());
         assertEquals("Dinesh A", employee.getName());
